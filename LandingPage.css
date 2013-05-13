@@ -1,0 +1,144 @@
+body {
+background-color: #2F4F4F;
+font-family:Book Antiqua;
+} 
+
+h1{
+padding:10px;
+}
+
+nav {
+float:left;
+
+}
+nav ul {
+padding-left: 50px;
+list-style-type:none;
+} 
+
+nav ul a:link {
+text-decoration: none;
+border-radius:10px;
+text-decoration: none;
+border-width: 1px;
+border-style: double;
+padding: 5px;
+border-color: #000000;
+color: #000000;
+background-color: #ADD8E6;
+
+}
+
+nav ul a:visited {
+text-decoration: none;
+}
+
+nav ul a:hover {
+border-radius:10px;
+text-decoration: none;
+border-width: 1px;
+border-style: outset;
+padding: 5px;
+color: #FFFFFF;
+background-color: #0033FF;
+}
+
+nav li {
+margin: 5px;
+padding: 5px;
+}
+
+footer {
+padding: 10px;
+text-align: center;
+clear: both;
+}
+
+.center {
+min-width: 300px;
+width: 60%;
+padding:20px 0 0 200px;
+
+}
+
+.center a {
+color: #000000;
+text-decoration: none;
+
+}
+
+.center a:link {
+text-decoration: none;
+padding-bottom: 5px;
+color: #000000;
+}
+
+.center a:hover {
+color: #FFFFFF;
+background-color: #0033FF;
+border-radius:10px;
+padding: 5px;
+}
+
+.center dd {
+padding: 5px;
+}
+
+#wrapper {
+/* opacity property for white background
+background-color: #FFFFFF;
+opacity: 0.65;
+filter:Alpha(opacity=50);*/ /* IE8 and earlier */
+
+/*Make a nice border*/
+border-radius:25px;
+border-width: 5px;
+border-style:ridge; 
+/* Gradient Background*/
+background-image:url('Images/BlueToWhiteGradient.jpg');
+background-repeat:repeat-x;
+background-color: #FFFFFF;
+/*Placement and size of the wrapper*/
+margin-left: auto; 
+margin-right: auto;
+width: 80%;
+min-width: 700px;
+}
+
+@font-face {
+font-family: ScriptingFont;
+src: url('Fonts/Scriptina Pro.otf')
+}
+
+.twitter-follow-button {
+float: right;
+}
+
+.twitter-timeline {
+width:50%;
+padding: 20px;
+float: right;
+}
+
+.socialmedia {
+float:right;
+}
+
+.titles {
+font-size:2.0em;
+}
+
+.name {
+font-family: ScriptingFont;
+font-size: 5.0em;
+}
+
+.magnify dd
+{
+font-size: 0.5em;
+}
+
+.magnify dd:hover
+{
+font-size: 1.0em;
+}
